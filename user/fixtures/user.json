@@ -1,0 +1,50 @@
+[
+{
+    "model": "auth.user",
+    "pk": 1,
+    "fields": {
+        "password": "pbkdf2_sha256$216000$3lPIjdEaq542$hEcCePAX60luoUxdn1cmhvW9Q9jTO98N2eE5eJbLI2E=",
+        "last_login": "2020-11-22T16:59:08.295Z",
+        "is_superuser": true,
+        "username": "admin",
+        "first_name": "",
+        "last_name": "",
+        "email": "admin@uni.ru",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2020-11-03T18:42:21.527Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 2,
+    "fields": {
+        "password": "pbkdf2_sha256$216000$Tm7uVhaQUhjB$pgam+rqYWpnQcKbCTVTTFIc+j0BjVU08Ovo7K8YqTRI=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "student",
+        "first_name": "Tim",
+        "last_name": "Doe",
+        "email": "student@uni.ru",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2020-11-09T18:43:40Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "user.profile",
+    "pk": 2,
+    "fields": {
+        "user": 2,
+        "gender": 1,
+        "birth_date": "2000-11-28",
+        "phone": null,
+        "location": "Stavropol",
+        "avatar": ""
+    }
+}
+]

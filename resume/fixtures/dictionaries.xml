@@ -1,0 +1,692 @@
+<?xml version="1.0" encoding="utf-8"?>
+<django-objects version="1.0">
+    <object model="resume.education" pk="1">
+        <field name="name" type="CharField">Среднее</field>
+    </object>
+    <object model="resume.education" pk="2">
+        <field name="name" type="CharField">Среднее специальное</field>
+    </object>
+    <object model="resume.education" pk="3">
+        <field name="name" type="CharField">Неоконченное высшее</field>
+    </object>
+    <object model="resume.education" pk="4">
+        <field name="name" type="CharField">Высшее</field>
+    </object>
+    <object model="resume.education" pk="5">
+        <field name="name" type="CharField">Бакалавр</field>
+    </object>
+    <object model="resume.education" pk="6">
+        <field name="name" type="CharField">Магистр</field>
+    </object>
+    <object model="resume.education" pk="7">
+        <field name="name" type="CharField">Кандидат наук</field>
+    </object>
+    <object model="resume.education" pk="8">
+        <field name="name" type="CharField">Доктор наук</field>
+    </object>
+    <object model="resume.edudirection" pk="1">
+        <field name="name" type="CharField">Прикладная математика и информатика</field>
+        <field name="code" type="CharField">01.03.02</field>
+    </object>
+    <object model="resume.edudirection" pk="2">
+        <field name="name" type="CharField">Прикладная математика и информатика</field>
+        <field name="code" type="CharField">01.04.02</field>
+    </object>
+    <object model="resume.edudirection" pk="3">
+        <field name="name" type="CharField">Компьютерные и информационные науки</field>
+        <field name="code" type="CharField">02.00.00</field>
+    </object>
+    <object model="resume.edudirection" pk="4">
+        <field name="name" type="CharField">Математика и компьютерные науки</field>
+        <field name="code" type="CharField">02.03.01</field>
+    </object>
+    <object model="resume.edudirection" pk="5">
+        <field name="name" type="CharField">Фундаментальная информатика и информационные технологии</field>
+        <field name="code" type="CharField">02.03.02</field>
+    </object>
+    <object model="resume.edudirection" pk="6">
+        <field name="name" type="CharField">Математическое обеспечение и администрирование информационных систем</field>
+        <field name="code" type="CharField">02.03.03</field>
+    </object>
+    <object model="resume.edudirection" pk="7">
+        <field name="name" type="CharField">Математика и компьютерные науки</field>
+        <field name="code" type="CharField">02.04.01</field>
+    </object>
+    <object model="resume.edudirection" pk="8">
+        <field name="name" type="CharField">Фундаментальная информатика и информационные технологии</field>
+        <field name="code" type="CharField">02.04.02</field>
+    </object>
+    <object model="resume.edudirection" pk="9">
+        <field name="name" type="CharField">Математическое обеспечение и администрирование информационных систем</field>
+        <field name="code" type="CharField">02.04.03</field>
+    </object>
+    <object model="resume.edudirection" pk="10">
+        <field name="name" type="CharField">Компьютерные и информационные науки</field>
+        <field name="code" type="CharField">02.06.01</field>
+    </object>
+    <object model="resume.edudirection" pk="11">
+        <field name="name" type="CharField">Биоинженерия и биоинформатика</field>
+        <field name="code" type="CharField">06.05.01</field>
+    </object>
+    <object model="resume.edudirection" pk="12">
+        <field name="name" type="CharField">Информатика и вычислительная техника</field>
+        <field name="code" type="CharField">09.00.00</field>
+    </object>
+    <object model="resume.edudirection" pk="13">
+        <field name="name" type="CharField">Информатика и вычислительная техника</field>
+        <field name="code" type="CharField">09.03.01</field>
+    </object>
+    <object model="resume.edudirection" pk="14">
+        <field name="name" type="CharField">Информационные системы и технологии</field>
+        <field name="code" type="CharField">09.03.02</field>
+    </object>
+    <object model="resume.edudirection" pk="15">
+        <field name="name" type="CharField">Прикладная информатика</field>
+        <field name="code" type="CharField">09.03.03</field>
+    </object>
+    <object model="resume.edudirection" pk="16">
+        <field name="name" type="CharField">Программная инженерия</field>
+        <field name="code" type="CharField">09.03.04</field>
+    </object>
+    <object model="resume.edudirection" pk="17">
+        <field name="name" type="CharField">Информатика и вычислительная техника</field>
+        <field name="code" type="CharField">09.04.01</field>
+    </object>
+    <object model="resume.edudirection" pk="18">
+        <field name="name" type="CharField">Информационные системы и технологии</field>
+        <field name="code" type="CharField">09.04.02</field>
+    </object>
+    <object model="resume.edudirection" pk="19">
+        <field name="name" type="CharField">Прикладная информатика</field>
+        <field name="code" type="CharField">09.04.03</field>
+    </object>
+    <object model="resume.edudirection" pk="20">
+        <field name="name" type="CharField">Программная инженерия</field>
+        <field name="code" type="CharField">09.04.04</field>
+    </object>
+    <object model="resume.edudirection" pk="21">
+        <field name="name" type="CharField">Информационная безопасность</field>
+        <field name="code" type="CharField">10.00.00</field>
+    </object>
+    <object model="resume.edudirection" pk="22">
+        <field name="name" type="CharField">Информационная безопасность</field>
+        <field name="code" type="CharField">10.03.01</field>
+    </object>
+    <object model="resume.edudirection" pk="23">
+        <field name="name" type="CharField">Информационная безопасность</field>
+        <field name="code" type="CharField">10.04.01</field>
+    </object>
+    <object model="resume.edudirection" pk="24">
+        <field name="name" type="CharField">Компьютерная безопасность</field>
+        <field name="code" type="CharField">10.05.01</field>
+    </object>
+    <object model="resume.edudirection" pk="25">
+        <field name="name" type="CharField">Информационная безопасность телекоммуникационных систем</field>
+        <field name="code" type="CharField">10.05.02</field>
+    </object>
+    <object model="resume.edudirection" pk="26">
+        <field name="name" type="CharField">Информационная безопасность автоматизированных систем</field>
+        <field name="code" type="CharField">10.05.03</field>
+    </object>
+    <object model="resume.edudirection" pk="27">
+        <field name="name" type="CharField">Информационно-аналитические системы безопасности</field>
+        <field name="code" type="CharField">10.05.04</field>
+    </object>
+    <object model="resume.edudirection" pk="28">
+        <field name="name" type="CharField">Безопасность информационных технологий в правоохранительной сфере</field>
+        <field name="code" type="CharField">10.05.05</field>
+    </object>
+    <object model="resume.edudirection" pk="29">
+        <field name="name" type="CharField">Бизнес-информатика</field>
+        <field name="code" type="CharField">38.03.05</field>
+    </object>
+    <object model="resume.edudirection" pk="30">
+        <field name="name" type="CharField">Бизнес-информатика</field>
+        <field name="code" type="CharField">38.04.05</field>
+    </object>
+    <object model="resume.employment" pk="1">
+        <field name="name" type="CharField">Полная занятость</field>
+    </object>
+    <object model="resume.employment" pk="2">
+        <field name="name" type="CharField">Частичная занятость</field>
+    </object>
+    <object model="resume.employment" pk="3">
+        <field name="name" type="CharField">Проектная работа</field>
+    </object>
+    <object model="resume.employment" pk="4">
+        <field name="name" type="CharField">Стажировка</field>
+    </object>
+    <object model="resume.experience" pk="1">
+        <field name="name" type="CharField">Нет опыта</field>
+    </object>
+    <object model="resume.experience" pk="2">
+        <field name="name" type="CharField">От 1 года до 3 лет</field>
+    </object>
+    <object model="resume.experience" pk="3">
+        <field name="name" type="CharField">От 3 до 6 лет</field>
+    </object>
+    <object model="resume.experience" pk="4">
+        <field name="name" type="CharField">Более 6 лет</field>
+    </object>
+    <object model="resume.salary" pk="1">
+        <field name="name" type="CharField">Не указана</field>
+    </object>
+    <object model="resume.salary" pk="2">
+        <field name="name" type="CharField">По договорённости</field>
+    </object>
+    <object model="resume.salary" pk="3">
+        <field name="name" type="CharField">от 35 000 руб.</field>
+    </object>
+    <object model="resume.salary" pk="4">
+        <field name="name" type="CharField">от 50 000 руб.</field>
+    </object>
+    <object model="resume.salary" pk="5">
+        <field name="name" type="CharField">от 70 000 руб.</field>
+    </object>
+    <object model="resume.salary" pk="6">
+        <field name="name" type="CharField">от 90 000 руб.</field>
+    </object>
+    <object model="resume.salary" pk="7">
+        <field name="name" type="CharField">от 110 000 руб.</field>
+    </object>
+    <object model="resume.salary" pk="8">
+        <field name="name" type="CharField">от 140 000 руб.</field>
+    </object>
+    <object model="resume.salary" pk="9">
+        <field name="name" type="CharField">от 180 000 руб.</field>
+    </object>
+    <object model="resume.salary" pk="10">
+        <field name="name" type="CharField">от 200 000 руб.</field>
+    </object>
+    <object model="resume.schedule" pk="1">
+        <field name="name" type="CharField">Полный день</field>
+    </object>
+    <object model="resume.schedule" pk="2">
+        <field name="name" type="CharField">Удаленная работа</field>
+    </object>
+    <object model="resume.schedule" pk="3">
+        <field name="name" type="CharField">Гибкий график</field>
+    </object>
+    <object model="resume.schedule" pk="4">
+        <field name="name" type="CharField">Вахтовый метод</field>
+    </object>
+    <object model="resume.schedule" pk="5">
+        <field name="name" type="CharField">Сменный график</field>
+    </object>
+    <object model="resume.skill" pk="1">
+        <field name="name" type="CharField">Css</field>
+    </object>
+    <object model="resume.skill" pk="2">
+        <field name="name" type="CharField">HTML</field>
+    </object>
+    <object model="resume.skill" pk="3">
+        <field name="name" type="CharField">JSFiddle</field>
+    </object>
+    <object model="resume.skill" pk="4">
+        <field name="name" type="CharField">Markdown</field>
+    </object>
+    <object model="resume.skill" pk="5">
+        <field name="name" type="CharField">Codepen</field>
+    </object>
+    <object model="resume.skill" pk="6">
+        <field name="name" type="CharField">Bootstrap</field>
+    </object>
+    <object model="resume.skill" pk="7">
+        <field name="name" type="CharField">Sass</field>
+    </object>
+    <object model="resume.skill" pk="8">
+        <field name="name" type="CharField">Pug</field>
+    </object>
+    <object model="resume.skill" pk="9">
+        <field name="name" type="CharField">Javascript</field>
+    </object>
+    <object model="resume.skill" pk="10">
+        <field name="name" type="CharField">NPM</field>
+    </object>
+    <object model="resume.skill" pk="11">
+        <field name="name" type="CharField">Node Js</field>
+    </object>
+    <object model="resume.skill" pk="12">
+        <field name="name" type="CharField">Angular Js</field>
+    </object>
+    <object model="resume.skill" pk="13">
+        <field name="name" type="CharField">React</field>
+    </object>
+    <object model="resume.skill" pk="14">
+        <field name="name" type="CharField">Redux</field>
+    </object>
+    <object model="resume.skill" pk="15">
+        <field name="name" type="CharField">TypeScript</field>
+    </object>
+    <object model="resume.skill" pk="16">
+        <field name="name" type="CharField">React native</field>
+    </object>
+    <object model="resume.skill" pk="17">
+        <field name="name" type="CharField">Vue</field>
+    </object>
+    <object model="resume.skill" pk="18">
+        <field name="name" type="CharField">PHP</field>
+    </object>
+    <object model="resume.skill" pk="19">
+        <field name="name" type="CharField">Yii</field>
+    </object>
+    <object model="resume.skill" pk="20">
+        <field name="name" type="CharField">Hadoop</field>
+    </object>
+    <object model="resume.skill" pk="21">
+        <field name="name" type="CharField">Python</field>
+    </object>
+    <object model="resume.skill" pk="22">
+        <field name="name" type="CharField">Django</field>
+    </object>
+    <object model="resume.skill" pk="23">
+        <field name="name" type="CharField">Ruby</field>
+    </object>
+    <object model="resume.skill" pk="24">
+        <field name="name" type="CharField">Ruby Gem</field>
+    </object>
+    <object model="resume.skill" pk="25">
+        <field name="name" type="CharField">Golang</field>
+    </object>
+    <object model="resume.skill" pk="26">
+        <field name="name" type="CharField">C#</field>
+    </object>
+    <object model="resume.skill" pk="27">
+        <field name="name" type="CharField">Swift</field>
+    </object>
+    <object model="resume.skill" pk="28">
+        <field name="name" type="CharField">Kotlin</field>
+    </object>
+    <object model="resume.skill" pk="29">
+        <field name="name" type="CharField">C++</field>
+    </object>
+    <object model="resume.skill" pk="30">
+        <field name="name" type="CharField">C</field>
+    </object>
+    <object model="resume.skill" pk="31">
+        <field name="name" type="CharField">Java</field>
+    </object>
+    <object model="resume.skill" pk="32">
+        <field name="name" type="CharField">Java Bean</field>
+    </object>
+    <object model="resume.skill" pk="33">
+        <field name="name" type="CharField">Hibernate</field>
+    </object>
+    <object model="resume.skill" pk="34">
+        <field name="name" type="CharField">Spring</field>
+    </object>
+    <object model="resume.skill" pk="35">
+        <field name="name" type="CharField">Sql</field>
+    </object>
+    <object model="resume.skill" pk="36">
+        <field name="name" type="CharField">MySQL</field>
+    </object>
+    <object model="resume.skill" pk="37">
+        <field name="name" type="CharField">Mongodb</field>
+    </object>
+    <object model="resume.skill" pk="38">
+        <field name="name" type="CharField">Firebird</field>
+    </object>
+    <object model="resume.skill" pk="39">
+        <field name="name" type="CharField">Postgreesql</field>
+    </object>
+    <object model="resume.skill" pk="40">
+        <field name="name" type="CharField">DB2</field>
+    </object>
+    <object model="resume.skill" pk="41">
+        <field name="name" type="CharField">Symbian</field>
+    </object>
+    <object model="resume.skill" pk="42">
+        <field name="name" type="CharField">Android</field>
+    </object>
+    <object model="resume.skill" pk="43">
+        <field name="name" type="CharField">iOS</field>
+    </object>
+    <object model="resume.skill" pk="44">
+        <field name="name" type="CharField">Git</field>
+    </object>
+    <object model="resume.skill" pk="45">
+        <field name="name" type="CharField">Github</field>
+    </object>
+    <object model="resume.skill" pk="46">
+        <field name="name" type="CharField">Bitbucket</field>
+    </object>
+    <object model="resume.skill" pk="47">
+        <field name="name" type="CharField">Heroku</field>
+    </object>
+    <object model="resume.skill" pk="48">
+        <field name="name" type="CharField">Gitlab</field>
+    </object>
+    <object model="resume.skill" pk="49">
+        <field name="name" type="CharField">FTP</field>
+    </object>
+    <object model="resume.skill" pk="50">
+        <field name="name" type="CharField">SSH</field>
+    </object>
+    <object model="resume.skill" pk="51">
+        <field name="name" type="CharField">Bash</field>
+    </object>
+    <object model="resume.skill" pk="52">
+        <field name="name" type="CharField">XMPP</field>
+    </object>
+    <object model="resume.skill" pk="53">
+        <field name="name" type="CharField">Rest API</field>
+    </object>
+    <object model="resume.skill" pk="54">
+        <field name="name" type="CharField">API</field>
+    </object>
+    <object model="resume.skill" pk="55">
+        <field name="name" type="CharField">Office 365</field>
+    </object>
+    <object model="resume.skill" pk="56">
+        <field name="name" type="CharField">Google compute engine</field>
+    </object>
+    <object model="resume.skill" pk="57">
+        <field name="name" type="CharField">MS SQL Server</field>
+    </object>
+    <object model="resume.skill" pk="58">
+        <field name="name" type="CharField">Unix</field>
+    </object>
+    <object model="resume.skill" pk="59">
+        <field name="name" type="CharField">Linux</field>
+    </object>
+    <object model="resume.skill" pk="60">
+        <field name="name" type="CharField">Debian</field>
+    </object>
+    <object model="resume.skill" pk="61">
+        <field name="name" type="CharField">DOS</field>
+    </object>
+    <object model="resume.skill" pk="62">
+        <field name="name" type="CharField">Red Hat</field>
+    </object>
+    <object model="resume.skill" pk="63">
+        <field name="name" type="CharField">OCR</field>
+    </object>
+    <object model="resume.skill" pk="64">
+        <field name="name" type="CharField">Suse</field>
+    </object>
+    <object model="resume.skill" pk="65">
+        <field name="name" type="CharField">Haiku</field>
+    </object>
+    <object model="resume.skill" pk="66">
+        <field name="name" type="CharField">FreeBSD</field>
+    </object>
+    <object model="resume.skill" pk="67">
+        <field name="name" type="CharField">Mandrive</field>
+    </object>
+    <object model="resume.skill" pk="68">
+        <field name="name" type="CharField">Ubuntu</field>
+    </object>
+    <object model="resume.skill" pk="69">
+        <field name="name" type="CharField">Mint</field>
+    </object>
+    <object model="resume.skill" pk="70">
+        <field name="name" type="CharField">CentOS</field>
+    </object>
+    <object model="resume.skill" pk="71">
+        <field name="name" type="CharField">BeOS</field>
+    </object>
+    <object model="resume.skill" pk="72">
+        <field name="name" type="CharField">GDPR</field>
+    </object>
+    <object model="resume.skill" pk="73">
+        <field name="name" type="CharField">Travis CI</field>
+    </object>
+    <object model="resume.skill" pk="74">
+        <field name="name" type="CharField">Jenkins</field>
+    </object>
+    <object model="resume.skill" pk="75">
+        <field name="name" type="CharField">Kubernetes</field>
+    </object>
+    <object model="resume.skill" pk="76">
+        <field name="name" type="CharField">Selenium</field>
+    </object>
+    <object model="resume.skill" pk="77">
+        <field name="name" type="CharField">Redis</field>
+    </object>
+    <object model="resume.skill" pk="78">
+        <field name="name" type="CharField">GraphQL</field>
+    </object>
+    <object model="resume.skill" pk="79">
+        <field name="name" type="CharField">Docker</field>
+    </object>
+    <object model="resume.skill" pk="80">
+        <field name="name" type="CharField">Openstack</field>
+    </object>
+    <object model="resume.skill" pk="81">
+        <field name="name" type="CharField">Kerio</field>
+    </object>
+    <object model="resume.skill" pk="82">
+        <field name="name" type="CharField">Azure</field>
+    </object>
+    <object model="resume.skill" pk="83">
+        <field name="name" type="CharField">Power BI</field>
+    </object>
+    <object model="resume.skill" pk="84">
+        <field name="name" type="CharField">Splunk</field>
+    </object>
+    <object model="resume.skill" pk="85">
+        <field name="name" type="CharField">SPSS</field>
+    </object>
+    <object model="resume.skill" pk="86">
+        <field name="name" type="CharField">Tableau</field>
+    </object>
+    <object model="resume.skill" pk="87">
+        <field name="name" type="CharField">Visual studio</field>
+    </object>
+    <object model="resume.skill" pk="88">
+        <field name="name" type="CharField">ASP</field>
+    </object>
+    <object model="resume.skill" pk="89">
+        <field name="name" type="CharField">Adobe Illustrator</field>
+    </object>
+    <object model="resume.skill" pk="90">
+        <field name="name" type="CharField">Adobe Indesign</field>
+    </object>
+    <object model="resume.skill" pk="91">
+        <field name="name" type="CharField">Adobe Photoshop</field>
+    </object>
+    <object model="resume.skill" pk="92">
+        <field name="name" type="CharField">Adobe Bridge</field>
+    </object>
+    <object model="resume.skill" pk="93">
+        <field name="name" type="CharField">Adobe Lightroom</field>
+    </object>
+    <object model="resume.skill" pk="94">
+        <field name="name" type="CharField">Adobe Premiere Pro</field>
+    </object>
+    <object model="resume.skill" pk="95">
+        <field name="name" type="CharField">Adobe XD</field>
+    </object>
+    <object model="resume.skill" pk="96">
+        <field name="name" type="CharField">Figma</field>
+    </object>
+    <object model="resume.skill" pk="97">
+        <field name="name" type="CharField">CorelDraw</field>
+    </object>
+    <object model="resume.skill" pk="98">
+        <field name="name" type="CharField">Autocad</field>
+    </object>
+    <object model="resume.skill" pk="99">
+        <field name="name" type="CharField">Autodesk 3ds Max</field>
+    </object>
+    <object model="resume.skill" pk="100">
+        <field name="name" type="CharField">Mockup</field>
+    </object>
+    <object model="resume.skill" pk="101">
+        <field name="name" type="CharField">Inkscape</field>
+    </object>
+    <object model="resume.skill" pk="102">
+        <field name="name" type="CharField">Laravel</field>
+    </object>
+    <object model="resume.skill" pk="103">
+        <field name="name" type="CharField">Symfony</field>
+    </object>
+    <object model="resume.skill" pk="104">
+        <field name="name" type="CharField">Virtual machine</field>
+    </object>
+    <object model="resume.skill" pk="105">
+        <field name="name" type="CharField">Kaspersky</field>
+    </object>
+    <object model="resume.skill" pk="106">
+        <field name="name" type="CharField">Anydesk</field>
+    </object>
+    <object model="resume.skill" pk="107">
+        <field name="name" type="CharField">NetApp</field>
+    </object>
+    <object model="resume.skill" pk="108">
+        <field name="name" type="CharField">VMware</field>
+    </object>
+    <object model="resume.skill" pk="109">
+        <field name="name" type="CharField">Veeam</field>
+    </object>
+    <object model="resume.skill" pk="110">
+        <field name="name" type="CharField">VirtualBox</field>
+    </object>
+    <object model="resume.skill" pk="111">
+        <field name="name" type="CharField">Drupal</field>
+    </object>
+    <object model="resume.skill" pk="112">
+        <field name="name" type="CharField">Wordpress</field>
+    </object>
+    <object model="resume.skill" pk="113">
+        <field name="name" type="CharField">Contao</field>
+    </object>
+    <object model="resume.skill" pk="114">
+        <field name="name" type="CharField">Joomla</field>
+    </object>
+    <object model="resume.skill" pk="115">
+        <field name="name" type="CharField">CCleaner</field>
+    </object>
+    <object model="resume.skill" pk="116">
+        <field name="name" type="CharField">7zip</field>
+    </object>
+    <object model="resume.skill" pk="117">
+        <field name="name" type="CharField">WinRAR</field>
+    </object>
+    <object model="resume.skill" pk="118">
+        <field name="name" type="CharField">Palm scan</field>
+    </object>
+    <object model="resume.skill" pk="119">
+        <field name="name" type="CharField">ES File Explorer</field>
+    </object>
+    <object model="resume.skill" pk="120">
+        <field name="name" type="CharField">Stack Overflow</field>
+    </object>
+    <object model="resume.skill" pk="121">
+        <field name="name" type="CharField">Trello</field>
+    </object>
+    <object model="resume.skill" pk="122">
+        <field name="name" type="CharField">Jira</field>
+    </object>
+    <object model="resume.skill" pk="123">
+        <field name="name" type="CharField">MS Project</field>
+    </object>
+    <object model="resume.skill" pk="124">
+        <field name="name" type="CharField">MS PowerPoint</field>
+    </object>
+    <object model="resume.skill" pk="125">
+        <field name="name" type="CharField">MS Outlook</field>
+    </object>
+    <object model="resume.skill" pk="126">
+        <field name="name" type="CharField">Sellsy</field>
+    </object>
+    <object model="resume.skill" pk="127">
+        <field name="name" type="CharField">SAP</field>
+    </object>
+    <object model="resume.skill" pk="128">
+        <field name="name" type="CharField">Podio</field>
+    </object>
+    <object model="resume.skill" pk="129">
+        <field name="name" type="CharField">Angelist</field>
+    </object>
+    <object model="resume.skill" pk="130">
+        <field name="name" type="CharField">Mind Map</field>
+    </object>
+    <object model="resume.skill" pk="131">
+        <field name="name" type="CharField">OptinMonster</field>
+    </object>
+    <object model="resume.skill" pk="132">
+        <field name="name" type="CharField">Tornado</field>
+    </object>
+    <object model="resume.skill" pk="133">
+        <field name="name" type="CharField">Flask</field>
+    </object>
+    <object model="resume.skill" pk="134">
+        <field name="name" type="CharField">Webpack</field>
+    </object>
+    <object model="resume.scope" pk="1">
+        <field name="name" type="CharField">Backend</field>
+    </object>
+    <object model="resume.scope" pk="2">
+        <field name="name" type="CharField">Frontend</field>
+    </object>
+    <object model="resume.scope" pk="3">
+        <field name="name" type="CharField">Разработка ПО</field>
+    </object>
+    <object model="resume.scope" pk="4">
+        <field name="name" type="CharField">Мобильная разработка</field>
+    </object>
+    <object model="resume.scope" pk="5">
+        <field name="name" type="CharField">Администрирование</field>
+    </object>
+    <object model="resume.scope" pk="6">
+        <field name="name" type="CharField">Дизайн</field>
+    </object>
+    <object model="resume.scope" pk="7">
+        <field name="name" type="CharField">Менеджмент</field>
+    </object>
+    <object model="resume.scope" pk="8">
+        <field name="name" type="CharField">Аналитика</field>
+    </object>
+    <object model="resume.scopeskills" pk="1">
+        <field name="scope" rel="ManyToOneRel" to="resume.scope">1</field>
+        <field name="skills" rel="ManyToManyRel" to="resume.skill"><object pk="2"></object><object pk="4"></object><object pk="6"></object><object pk="9"></object><object pk="11"></object><object pk="14"></object><object pk="18"></object><object pk="19"></object><object pk="21"></object><object pk="22"></object><object pk="23"></object><object pk="24"></object><object pk="25"></object><object pk="35"></object><object pk="36"></object><object pk="37"></object><object pk="38"></object><object pk="39"></object><object pk="40"></object><object pk="44"></object><object pk="45"></object><object pk="46"></object><object pk="47"></object><object pk="48"></object><object pk="49"></object><object pk="50"></object><object pk="51"></object><object pk="52"></object><object pk="53"></object><object pk="54"></object><object pk="57"></object><object pk="58"></object><object pk="59"></object><object pk="60"></object><object pk="61"></object><object pk="62"></object><object pk="63"></object><object pk="64"></object><object pk="65"></object><object pk="66"></object><object pk="67"></object><object pk="68"></object><object pk="69"></object><object pk="70"></object><object pk="71"></object><object pk="73"></object><object pk="74"></object><object pk="75"></object><object pk="76"></object><object pk="77"></object><object pk="78"></object><object pk="79"></object><object pk="102"></object><object pk="103"></object><object pk="111"></object><object pk="112"></object></field>
+    </object>
+    <object model="resume.scopeskills" pk="2">
+        <field name="scope" rel="ManyToOneRel" to="resume.scope">2</field>
+        <field name="skills" rel="ManyToManyRel" to="resume.skill"><object pk="1"></object><object pk="2"></object><object pk="3"></object><object pk="4"></object><object pk="5"></object><object pk="6"></object><object pk="7"></object><object pk="8"></object><object pk="9"></object><object pk="10"></object><object pk="11"></object><object pk="12"></object><object pk="13"></object><object pk="14"></object><object pk="15"></object><object pk="16"></object><object pk="17"></object><object pk="37"></object><object pk="38"></object><object pk="44"></object><object pk="45"></object><object pk="46"></object><object pk="47"></object><object pk="48"></object><object pk="53"></object><object pk="54"></object><object pk="78"></object><object pk="89"></object><object pk="91"></object><object pk="96"></object><object pk="97"></object><object pk="134"></object></field>
+    </object>
+    <object model="resume.scopeskills" pk="3">
+        <field name="scope" rel="ManyToOneRel" to="resume.scope">3</field>
+        <field name="skills" rel="ManyToManyRel" to="resume.skill"><object pk="4"></object><object pk="26"></object><object pk="29"></object><object pk="30"></object><object pk="31"></object><object pk="32"></object><object pk="35"></object><object pk="36"></object><object pk="39"></object><object pk="44"></object><object pk="45"></object><object pk="46"></object><object pk="48"></object><object pk="58"></object><object pk="59"></object><object pk="60"></object><object pk="62"></object><object pk="68"></object><object pk="69"></object><object pk="104"></object><object pk="110"></object></field>
+    </object>
+    <object model="resume.scopeskills" pk="4">
+        <field name="scope" rel="ManyToOneRel" to="resume.scope">4</field>
+        <field name="skills" rel="ManyToManyRel" to="resume.skill"><object pk="16"></object><object pk="27"></object><object pk="28"></object><object pk="31"></object><object pk="35"></object><object pk="37"></object><object pk="38"></object><object pk="41"></object><object pk="42"></object><object pk="43"></object><object pk="44"></object><object pk="45"></object><object pk="46"></object><object pk="48"></object></field>
+    </object>
+    <object model="resume.scopeskills" pk="5">
+        <field name="scope" rel="ManyToOneRel" to="resume.scope">6</field>
+        <field name="skills" rel="ManyToManyRel" to="resume.skill"><object pk="89"></object><object pk="90"></object><object pk="91"></object><object pk="92"></object><object pk="93"></object><object pk="94"></object><object pk="95"></object><object pk="96"></object><object pk="97"></object><object pk="98"></object><object pk="99"></object><object pk="100"></object><object pk="101"></object></field>
+    </object>
+    <object model="resume.scopeskills" pk="6">
+        <field name="scope" rel="ManyToOneRel" to="resume.scope">8</field>
+        <field name="skills" rel="ManyToManyRel" to="resume.skill"><object pk="55"></object><object pk="83"></object><object pk="84"></object><object pk="85"></object><object pk="86"></object><object pk="123"></object></field>
+    </object>
+    <object model="resume.scopeskills" pk="7">
+        <field name="scope" rel="ManyToOneRel" to="resume.scope">7</field>
+        <field name="skills" rel="ManyToManyRel" to="resume.skill"><object pk="94"></object><object pk="121"></object><object pk="122"></object><object pk="125"></object><object pk="130"></object></field>
+    </object>
+    <object model="resume.scopeskills" pk="8">
+        <field name="scope" rel="ManyToOneRel" to="resume.scope">5</field>
+        <field name="skills" rel="ManyToManyRel" to="resume.skill"><object pk="56"></object><object pk="57"></object><object pk="58"></object><object pk="59"></object><object pk="60"></object><object pk="61"></object><object pk="62"></object><object pk="63"></object><object pk="65"></object><object pk="66"></object><object pk="67"></object><object pk="68"></object><object pk="69"></object><object pk="70"></object><object pk="71"></object><object pk="72"></object><object pk="73"></object><object pk="74"></object><object pk="75"></object><object pk="79"></object><object pk="80"></object><object pk="81"></object><object pk="82"></object><object pk="104"></object><object pk="105"></object><object pk="106"></object><object pk="108"></object><object pk="109"></object><object pk="110"></object></field>
+    </object>
+    <object model="resume.resume" pk="1">
+        <field name="user" rel="ManyToOneRel" to="auth.user">2</field>
+        <field name="name" type="CharField">Python</field>
+        <field name="about" type="TextField">&lt;p&gt;Junior backend разработчик&lt;/p&gt;</field>
+        <field name="direction" rel="ManyToOneRel" to="resume.edudirection">19</field>
+        <field name="employment" rel="ManyToOneRel" to="resume.employment">2</field>
+        <field name="schedule" rel="ManyToOneRel" to="resume.schedule">2</field>
+        <field name="salary" rel="ManyToOneRel" to="resume.salary">4</field>
+        <field name="scope" rel="ManyToOneRel" to="resume.scope">1</field>
+        <field name="qualification" type="SmallIntegerField">2</field>
+        <field name="experience" rel="ManyToOneRel" to="resume.experience">2</field>
+        <field name="education" rel="ManyToOneRel" to="resume.education">6</field>
+        <field name="status" type="PositiveSmallIntegerField">1</field>
+        <field name="created_at" type="DateTimeField">2020-11-22T14:13:29.546222+00:00</field>
+        <field name="published_at" type="DateTimeField">2020-11-22T14:13:29.546222+00:00</field>
+        <field name="updated_at" type="DateTimeField">2020-11-23T20:23:12.002526+00:00</field>
+        <field name="skills" rel="ManyToManyRel" to="resume.skill"><object pk="22"></object><object pk="44"></object><object pk="133"></object></field>
+    </object>
+</django-objects>
