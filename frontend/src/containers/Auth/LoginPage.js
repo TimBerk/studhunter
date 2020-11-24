@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
+import { withRouter } from 'react-router-dom';
 import { Formik, Form, Field, ErrorMessage } from 'formik';
 import { login } from "../../actions/authAction";
 import {getCurrentUser} from "../../utils/storages";
@@ -48,8 +49,11 @@ class LoginPage extends Component {
                         }
                         return errors;
                     }}
-                    onSubmit={(values, {setSubmitting}) => {
-                        login(values);
+                    onSubmit={async (values, {setSubmitting}) => {
+                        const result = await login(values);
+                        if (result.type === 'LOGIN_SUCCESS') {
+                            this.props.history.push('/');
+                        }
                     }}
                 >
                     {({isSubmitting, errors}) => (
@@ -94,4 +98,4 @@ const mapDispatchToProps = {
     login
 }
 
-export default connect(mapStateToProps, mapDispatchToProps)(LoginPage);
+export default connect(mapStateToProps, mapDispatchToProps)(withRouter(LoginPage));

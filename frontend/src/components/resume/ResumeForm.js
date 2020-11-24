@@ -1,6 +1,7 @@
 import React, {useEffect} from "react";
-import {ErrorMessage, Field, Form, Formik} from "formik";
-import {CKEditor} from "@ckeditor/ckeditor5-react";
+import { withRouter } from "react-router-dom";
+import { ErrorMessage, Field, Form, Formik } from "formik";
+import { CKEditor } from "@ckeditor/ckeditor5-react";
 import ClassicEditor from "@ckeditor/ckeditor5-build-classic";
 import Select from "react-select";
 import AsyncSelect from "react-select/async/dist/react-select.esm";
@@ -37,6 +38,8 @@ const ResumeForm = ({props, submitForm, resume = {}, isAdd=true}) => {
         } else {
             submitForm(resume.id, values);
         }
+
+        props.history.push('/resume');
     }
 
     return (
@@ -241,4 +244,4 @@ const ResumeForm = ({props, submitForm, resume = {}, isAdd=true}) => {
     );
 }
 
-export default ResumeForm;
+export default withRouter(ResumeForm);

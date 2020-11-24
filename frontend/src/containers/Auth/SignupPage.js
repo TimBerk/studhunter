@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
+import { withRouter } from "react-router-dom";
 import { Formik, Form, Field, ErrorMessage } from 'formik';
 import { signup } from "../../actions/authAction";
 import {getCurrentUser} from "../../utils/storages";
@@ -34,8 +35,11 @@ class SignupPage extends Component {
                         }
                         return errors;
                     }}
-                    onSubmit={(values, {setSubmitting}) => {
-                        signup(values);
+                    onSubmit={async (values, {setSubmitting}) => {
+                        const result = await signup(values);
+                        if (result.type === 'SIGNUP_SUCCESS') {
+                            this.props.history.push('/');
+                        }
                     }}
                 >
                     {({isSubmitting, errors}) => (
@@ -100,4 +104,4 @@ const mapDispatchToProps = {
     signup
 }
 
-export default connect(mapStateToProps, mapDispatchToProps)(SignupPage);
+export default connect(mapStateToProps, mapDispatchToProps)(withRouter(SignupPage));

@@ -1,7 +1,7 @@
 export const headerLinks = [
-    { name: 'Главная', url: '/'},
-    { name: 'Авторизация', url: '/login'},
-    { name: 'Регистрация', url: '/register'},
+    { name: 'Главная', url: '/', auth: true},
+    { name: 'Авторизация', url: '/login', auth: false},
+    { name: 'Регистрация', url: '/register', auth: false},
 ]
 
 export const headerUserLinks = [

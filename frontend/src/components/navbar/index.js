@@ -2,18 +2,29 @@ import React, {Component} from "react";
 import {Link, NavLink} from "react-router-dom";
 import { connect } from "react-redux";
 import { logout } from "../../actions/authAction";
-import {getCurrentUser} from "../../utils/storages";
+import { getCurrentUser, checkIsLoggedIn } from "../../utils/storages";
 import {isEmpty} from "../../utils/common";
 import { headerLinks, headerUserLinks} from "../../constants/HeaderLinks";
 
 class Navbar extends Component {
     state = {
-        currentUser: getCurrentUser()
+        currentUser: getCurrentUser(),
+        isLoggedIn: checkIsLoggedIn(),
+    }
+
+    static getDerivedStateFromProps(props, state) {
+        if (props.user !== undefined && props.user !== state.currentUser) {
+            return {
+                currentUser: props.user
+            };
+        }
+
+        return null;
     }
 
     render () {
-        const [{logout}, {currentUser}] = [this.props, this.state];
-        const userLinks = (isEmpty(currentUser) || !currentUser) ? null : headerUserLinks;
+        const [{ logout }, {currentUser, isLoggedIn}] = [this.props, this.state];
+        const userLinks = isLoggedIn ? headerUserLinks : null;
         let userPart = null;
 
         if (currentUser && !isEmpty(currentUser)) {
@@ -51,13 +62,13 @@ class Navbar extends Component {
                 <div className="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
                     <ul className="navbar-nav align-items-end">
                         {
-                            headerLinks.map((link, id) => {
+                            headerLinks
+                                .filter(link => isLoggedIn? link.auth === isLoggedIn : true)
+                                .map((link, id) => {
                                 return <li className="nav-item" key={id}>
                                     <NavLink className="nav-link" exact  to={link.url}  activeClassName="active">
                                         {link.name}
                                     </NavLink>
-
-
                                 </li>
                             })
                         }
@@ -70,8 +81,8 @@ class Navbar extends Component {
     }
 }
 
-const mapStateToProps = ({ auth: { user } }) => {
-    return { user }
+const mapStateToProps = ({ auth: { user, isLoggedIn } }) => {
+    return { user, isLoggedIn }
 }
 
 const mapDispatchToProps = {

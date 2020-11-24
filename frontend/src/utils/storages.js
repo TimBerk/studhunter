@@ -1,4 +1,5 @@
 import Cookies from "universal-cookie";
+import {isEmpty} from "./common";
 
 export const cookies = new Cookies();
 export const getCsrfToken = () => cookies.get('csrf_token');
@@ -18,3 +19,8 @@ export const getCurrentUser = () => {
 
 export const setCurrentUser = user => sessionStorage.setItem('userData', JSON.stringify(user));
 export const removeCurrentUser = () => sessionStorage.removeItem('userData');
+
+export const checkIsLoggedIn = () => {
+    const currentUser = getCurrentUser();
+    return currentUser && !isEmpty(currentUser);
+}
